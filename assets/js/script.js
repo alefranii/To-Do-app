@@ -36,6 +36,15 @@ $("input[type='text']").on("keypress", function(e) {
       
       $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + agregarTexto + "</li>");
    }
+   
+   $(".checkbox").click(function(){
+      
+      $(".container").append(agregarTexto);
+   });
+   
+   $("button").click(function(r){
+      $(this).parent().remove();
+   })
 });
 
 $(".fa-plus").on("click", function() {
