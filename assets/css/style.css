@@ -2,15 +2,11 @@
 body {
 	margin: 0;
 	font-family: Roboto, sans-serif;
-	/*background: #642B73;
-	/*background: -webkit-linear-gradient(to right, #C6426E, #642B73);
-	/*background: linear-gradient(to right, #C6426E, #642B73)*/
- padding: 0;
-  background-image: url('https://wallpaperscraft.com/image/flower_bud_purple_leaves_90360_1920x1080.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	padding: 0;
+	background-image: url('https://wallpaperscraft.com/image/flower_bud_purple_leaves_90360_1920x1080.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-
 
 ul {
 	list-style: none;
@@ -34,33 +30,16 @@ li:hover span {
 	opacity: 1.0;
 }
 
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /* ESTILOS BÁSICOS */
 .container {
-	 margin: 0 auto;
-  position: block;
-  width: 600px;
-  height: 150px;
-  border-radius: 50px;
+	margin: 0 auto;
+	position: block;
+	width: 600px;
+	height: 150px;
+	border-radius: 50px;
 }
-header {
-	background-color: #6730EC;
-	color: white;
-	padding: 5em 0 2em;
-	margin-bottom: 5em;
-}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Great Vibes', cursive;
 }
@@ -73,7 +52,6 @@ h1 {
 	font-size: 28px;
 	font-weight: normal;
 }
-
 
 input {
 	font-size: 18px;
@@ -92,7 +70,6 @@ input:focus {
 	border: 3px solid #642B73;
 	outline: none;
 }
-
 
 p {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
